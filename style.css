@@ -51,7 +51,8 @@ p {
 }
 #join-button {
     width:45%;
-    font-size: 200%;
+    font-size: 2em;
+    text-align: center;
 }
 html {
     background-image:url(dirt.png);
