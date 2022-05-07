@@ -4,7 +4,6 @@
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 10vh;
     border-bottom: 2px solid black;
 }
 
@@ -16,11 +15,10 @@
     color: #fff;
 }
 #filler{
-    height: 12%;
+    height: 4em;
 }
 #scr1 {
     width: 100%;
-    height: 4em;
 }
 #scr2 {
     width: 100%;
@@ -52,9 +50,19 @@ p {
     transform: translate(-50%,0);
 }
 #join-button {
-    width:45%;
+    cursor: pointer;
+    background-color: #8B8B8B;
+    border-left: #373737 2px solid;
+    border-top: #373737 2px solid;
+    border-right: #FFFFFF 2px solid;
+    border-bottom: #FFFFFF 2px solid;
     font-size: 2em;
     text-align: center;
+    transition-duration: 0.3s;
+}
+#join-button:hover {
+    transition-duration: 0.3s;
+    background-color: #909DFF;
 }
 html {
     background-image:url(dirt.png);
