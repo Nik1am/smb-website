@@ -1,4 +1,6 @@
 #smb-header {
+    color: #fff;
+    font-family: UniSansHeavyCaps;
     background-color: #71BC68;
     position: fixed;
     top: 0px;
@@ -8,11 +10,19 @@
 }
 
 #name {
-    font-family: UniSansHeavyCaps;
     font-size: 4em;
     position: relative;
     margin-left: 2%;
-    color: #fff;
+}
+
+#plr-counter {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    right:0px;
+    margin-right: 2%;
+    
+    font-size: 2em;
 }
 #filler{
     height: 4em;
@@ -43,7 +53,6 @@ p {
 #event-new-season{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2em;
-    color: #fff;
     top: 2%;
     position: absolute;
     left:50%;
